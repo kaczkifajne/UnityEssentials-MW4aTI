@@ -24,12 +24,9 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        //if (Input.GetButtonDown("Jump"))
-        //{
-        //    rb.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
-        //}
+        
     }
-
+    
     private void FixedUpdate()
     {
         Vector2 moveInput = Vector2.zero;
